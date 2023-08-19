@@ -17,5 +17,7 @@ then use pinokio here :
 
 open http://localhost:4200/
 
-## DRAFT PINOKIO SCRIPT FROM KEITH 8/17/2023
+## You need to have Docker Running on your machine, install it here :
+
+https://docs.docker.com/desktop/install/debian/
 
