@@ -41,7 +41,7 @@
         {
             "method": "fs.write",
             "params": {
-                "path": "./superagi",
+                "path": "./superagi/config.yaml",
                 "text": [
                     "PINECONE_API_KEY={{input.PINECONE_API_KEY}}",
                     "PINECONE_ENVIRONMENT={{input.PINECONE_ENVIRONMENT}}",
