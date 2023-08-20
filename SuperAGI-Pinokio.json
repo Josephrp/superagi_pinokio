@@ -3,8 +3,8 @@
         {
             "method": "notify",
             "params": {
-                "html": "Please ensure you have insalled docker to complete this installation.!",
-                "href": "http://localhost:3000"
+                "html": "Please ensure you have insalled docker and it is running on your computer to complete this installation.!",
+                "href": "https://www.docker.com/products/docker-desktop/"
             }
         },
         {
