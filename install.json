@@ -10,7 +10,14 @@
         {
             "method": "shell.run",
             "params": {
-                "message": "git clone git clone https://github.com/TransformerOptimus/SuperAGI.git superagi",
+                "message": "git clone https://github.com/TransformerOptimus/SuperAGI.git superagi",
+                "path": "./"
+            }
+        },
+        {
+            "method": "shell.run",
+            "params": {
+                "message": "pwd",
                 "path": "./"
             }
         },
@@ -124,7 +131,7 @@
             "method": "shell.run",
             "params": {
                 "message": "docker-compose up --build",
-                "path": "./superagi"
+                "path": "./superagi/"
             }
         },
         {
