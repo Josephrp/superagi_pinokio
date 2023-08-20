@@ -1,0 +1,63 @@
+{
+    "run": [
+        {
+            "method": "shell.run",
+            "params": {
+                "message": {
+                    "default": "docker --version",
+                    "linux": "docker --version",
+                    "mac": "docker --version",
+                    "windows": "docker --version"
+                }
+            },
+            "onSuccess": {
+                "method": "notify",
+                "params": {
+                    "html": "Docker is already installed. Continuing with the script...",
+                    "duration": 5000
+                }
+            },
+            "onFailure": [
+                {
+                    "method": "notify",
+                    "params": {
+                        "html": "Docker isn't installed. Installing now...",
+                        "duration": 5000
+                    }
+                },
+                {
+                    "method": "shell.run",
+                    "params": {
+                        "message": {
+                            "linux": "sudo apt-get update && sudo apt-get install docker-ce docker-ce-cli containerd.io",
+                            "mac": "open 'https://www.docker.com/products/docker-desktop'",
+                            "windows": "start 'https://www.docker.com/products/docker-desktop'"
+                        }
+                    }
+                },
+                {
+                    "method": "notify",
+                    "params": {
+                        "html": "For macOS and Windows, please follow the installation instructions from the Docker website.",
+                        "duration": 10000,
+                        "condition": "mac || windows"
+                    }
+                }
+            ]
+        },
+        {
+            "method": "shell.run",
+            "params": {
+                "message": "docker-compose up -d",
+                "path": "./superagi/"
+            }
+        },
+        {
+            "method": "notify",
+            "params": {
+                "html": "superagi installation complete! Click here to get started!",
+                "href": "http://localhost:3000"
+            }
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 # superagi.com-autonomous-agents-hackathon
-Team Tonic Super AGI Autonomous Agents Hackathon GitHub Repository.
+
+Atomic Tonic - Super AGI Autonomous Agents Hackathon GitHub Repository.
 
 #### 8/19/2023 From Cocktail Peanut -
 
@@ -17,7 +18,8 @@ then use pinokio here :
 
 open http://localhost:4200/
 
-## You need to have Docker Running on your machine, install it here :
+### Copy and Paste the Three Scripts of this repo in your Super Agi Folder
 
-https://docs.docker.com/desktop/install/debian/
+click on runsuperagi , then :
 
+## Click Run to Run

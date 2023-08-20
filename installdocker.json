@@ -1,0 +1,33 @@
+{
+    "run": [
+        {
+            "method": "shell.run",
+            "params": {
+                "message": {
+                    "default": "docker --version",
+                    "windows": "docker --version",
+                    "mac": "docker --version",
+                    "linux": "docker --version"
+                },
+                "path": "./"
+            }
+        },
+        {
+            "method": "shell.run",
+            "params": {
+                "message": {
+                    "default": "sudo apt-get update && sudo apt-get install docker-ce docker-ce-cli containerd.io",
+                    "linux": "sudo apt-get update && sudo apt-get install docker-ce docker-ce-cli containerd.io"
+                },
+                "path": "./"
+            }
+        }
+{
+            "method": "notify",
+            "params": {
+                "html": "Docker isn't installed. Please <a href='https://www.docker.com/products/docker-desktop'>download and install Docker Desktop</a> to proceed.",
+                "href": "https://www.docker.com/products/docker-desktop"
+            }
+        }
+    ]
+}
