@@ -1,9 +1,16 @@
 {
     "run": [
         {
+            "method": "notify",
+            "params": {
+                "html": "Please ensure you have insalled docker to complete this installation.!",
+                "href": "http://localhost:3000"
+            }
+        },
+        {
             "method": "shell.run",
             "params": {
-                "message": "git clone git clone https://github.com/TransformerOptimus/SuperAGI.git superaGI",
+                "message": "git clone git clone https://github.com/TransformerOptimus/SuperAGI.git superagi",
                 "path": "./"
             }
         },
@@ -111,13 +118,6 @@
                     "ENGINE_ID=\"stable-diffusion-xl-beta-v2-2-2\""
                 ],
                 "join": "{{os.EOL}}"
-            }
-        },
-        {
-            "method": "shell.run",
-            "params": {
-                "message": "cp config_template.yaml config.yaml",
-                "path": "./superagi"
             }
         },
         {
