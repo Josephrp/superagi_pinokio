@@ -18,6 +18,9 @@ then use pinokio here :
 
 open http://localhost:4200/
 
+### download Super AGI
+https://github.com/TransformerOptimus/SuperAGI
+
 ### Copy and Paste the Three Scripts of this repo in your Super Agi Folder
 
 click on runsuperagi , then :
