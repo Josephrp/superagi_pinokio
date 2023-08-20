@@ -21,8 +21,8 @@
                 },
                 "path": "./"
             }
-        }
-{
+        },
+        {
             "method": "notify",
             "params": {
                 "html": "Docker isn't installed. Please <a href='https://www.docker.com/products/docker-desktop'>download and install Docker Desktop</a> to proceed.",
