@@ -47,7 +47,18 @@
             ]
         },
         {
-            // ... (Continue with the rest of your script)
+            "method": "shell.run",
+            "params": {
+                "message": "docker-compose -d",
+                "path": "./superagi/"
+            }
+        },
+        {
+            "method": "notify",
+            "params": {
+                "html": "superagi installation complete! Click here to get started!",
+                "href": "http://localhost:3000"
+            }
         }
     ]
 }
