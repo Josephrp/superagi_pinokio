@@ -15,13 +15,6 @@
             }
         },
         {
-            "method": "shell.run",
-            "params": {
-                "message": "pwd",
-                "path": "./"
-            }
-        },
-        {
             "method": "input",
             "params": {
                 "title": "Settings",
@@ -137,7 +130,7 @@
         {
             "method": "notify",
             "params": {
-                "html": "superagi installation complete! Run the start script to get started!",
+                "html": "superagi installation complete! Run the start script to get started!"
             }
         }
     ]

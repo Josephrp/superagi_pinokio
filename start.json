@@ -3,7 +3,7 @@
         {
             "method": "shell.run",
             "params": {
-                "message": "docker-compose -d",
+                "message": "docker-compose up -d",
                 "path": "./superagi/"
             }
         },
