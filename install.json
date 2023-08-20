@@ -130,15 +130,14 @@
         {
             "method": "shell.run",
             "params": {
-                "message": "docker-compose up --build",
+                "message": "docker-compose build",
                 "path": "./superagi/"
             }
         },
         {
             "method": "notify",
             "params": {
-                "html": "superagi installation complete! Click here to get started!",
-                "href": "http://localhost:3000"
+                "html": "superagi installation complete! Run the start script to get started!",
             }
         }
     ]
