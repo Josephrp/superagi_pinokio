@@ -3,7 +3,7 @@
         {
             "method": "notify",
             "params": {
-                "html": "<h1>Please ensure you have insalled docker and it is running on your computer to complete this installation!</h1>",
+                "html": "Please ensure you have insalled docker and it is running on your computer to complete this installation!",
                 "href": "https://www.docker.com/products/docker-desktop/"
             }
         },
