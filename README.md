@@ -23,6 +23,8 @@ https://github.com/TransformerOptimus/SuperAGI
 
 ### Copy and Paste the Three Scripts of this repo in your Super Agi Folder
 
+click on install docker and run (ignore errors) ; click on install superagi and run (ignore errors)
+
 click on runsuperagi , then :
 
 ## Click Run to Run
