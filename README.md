@@ -70,3 +70,8 @@ open http://localhost:4200/
 
 
 # Our Support channel is where we're sharing all 100+ agents created during this hackathon.
+
+join here : on discord
+
+
+
